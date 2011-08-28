@@ -11,10 +11,33 @@ between attribute names and values.  I'm new to pygments and to python packaging
 to tell me if I've done something wrong or if the JSON parsing doesn't quite work for you.
 
 
+Install
+--------
+
+Until I learn a bit more about python packaging, I'm not going to create a PyPI_ project for
+this.  And perhaps by the time I do figure out how to do that, the JSON lexer will be included
+in pygments.  In the meantime, installation is straightforward.  I use pip_, which will allow
+you to install pygments-json directly from github.
+
+.. code-block:: console
+
+  $ pip install -e git+https://github.com/orb/pygments-json.git#egg=pygments-json
+
+Usage
+-------
+
+
+.. code-block:: console
+
+   $ pygment your-file.json
+   ... beatifully formatted json will flow here
+   ... or at least, it will be better than it was before
+
 
 Norman Richards
    orb@nostacktrace.com
 
 .. _Pygments: http://pygments.org/
 .. _pygments-json: https://github.com/orb/pygments-json
-
+.. _PyPI: http://pypi.python.org/pypi
+.. _pip: http://www.pip-installer.org/
