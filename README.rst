@@ -17,19 +17,17 @@ Install
 Until I learn a bit more about python packaging, I'm not going to create a PyPI_ project for
 this.  And perhaps by the time I do figure out how to do that, the JSON lexer will be included
 in pygments.  In the meantime, installation is straightforward.  I use pip_, which will allow
-you to install pygments-json directly from github.
-
-.. code-block:: console
+you to install pygments-json directly from github:
 
   $ pip install -e git+https://github.com/orb/pygments-json.git#egg=pygments-json
 
 Usage
 -------
 
+Pygment json highlighting is available without any further customization from code as well
+as from the pygementize command:
 
-.. code-block:: console
-
-   $ pygment your-file.json
+   $ pygmentize your-file.json
    ... beatifully formatted json will flow here
    ... or at least, it will be better than it was before
 
