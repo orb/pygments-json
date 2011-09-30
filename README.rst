@@ -24,8 +24,8 @@ Pygment json highlighting is available without any further customization from co
 as from the pygementize command:
 
    $ pygmentize your-file.json
-   ... beatifully formatted json will flow here
-   ... or at least, it will be better than it was before
+
+   ... beautifully formatted json will flow here
 
 
 Norman Richards
