@@ -13,7 +13,7 @@ class JSONLexer(RegexLexer):
     name = 'JSON Lexer'
     aliases = ['json']
     filenames = ['*.json']
-    mimetypes = []
+    mimetypes = ['application/json']
 
 
     flags = re.DOTALL
